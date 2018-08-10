@@ -32,12 +32,12 @@ class Gmail:
 		self.some_contact = some_contact
 		self.smtp = smtp
 
-		self.elements = [
-			self.content,
-			self.from_addr,
-			self.some_contact,
-			self.smtp
-		]
+# 		self.elements = [
+# 			self.content,
+# 			self.from_addr,
+# 			self.some_contact,
+# 			self.smtp
+# 		]
 
 		with open(self.some_contact, 'r') as infile:
 			for line in infile:
@@ -76,12 +76,12 @@ class Live:
 		self.some_contact = some_contact
 		self.smtp = smtp
 
-		self.elements = [
-			self.content,
-			self.from_addr,
-			self.some_contact,
-			self.smtp
-		]
+# 		self.elements = [
+# 			self.content,
+# 			self.from_addr,
+# 			self.some_contact,
+# 			self.smtp
+# 		]
 
 		with open(self.some_contact, 'r') as infile:
 			for line in infile:
